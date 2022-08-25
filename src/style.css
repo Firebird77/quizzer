@@ -1,0 +1,352 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    color: #495760;
+    text-align: center;
+
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    font-family: 'Carter One', cursive;    
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+
+.main{
+    font-size: 55px;
+    color:#D37E2B ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bg{
+ height: 280px;
+ width: 100%;
+ background-color: #D37E2B;
+display: block;
+text-align: center;
+padding-top: 50px;
+}
+
+
+.container {
+    margin-top: 10px;
+    padding:0 25px ;
+    color: black;
+    display: block;
+    text-align: center;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.game{
+    padding:0 15px ;
+}
+
+.txt-intro{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    color: #495760;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.btn-main{
+    
+        height: 52px;
+        width: 100%;
+        margin-top: 25px;
+        border-radius: 6px;
+        border: 1.8px solid;
+ background-color: #D37E2B;
+ border-color: #D37E2B;
+        text-align: center;
+        color: white;
+        font-family: roboto;
+        font-size: 18px;
+        font-weight: 600; 
+        line-height: 25px;  
+        display: block; 
+      
+
+}
+
+
+/*////////////////////////page2////////////////////////////////////*/
+
+.card{
+    width: 100%;
+    height: 416px;
+    border-radius: 6px;
+ color: #495760;
+ border: 1.98px solid;
+ display: block;
+ 
+
+
+}
+
+
+.content{
+   
+    color: #495760;
+    text-align: center;
+
+}
+
+.nbr-qst{
+    font-family: roboto ;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+    margin-top: 25px;    
+}
+
+.prog-bar{
+    width: 100%;
+   
+    height: 7px;
+    background-color:#EDE1E1 ;
+    margin-bottom: 10px;
+}
+
+.bar{
+    width: 40%;
+    height: 7px;
+ background-color: #D37E2B;
+}
+
+.container-content{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Varela Round', sans-serif;
+
+
+}
+
+.qst{
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.rep-box{
+    text-align: left;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+
+.rep{
+    height: 39px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1.9px solid;
+background-color: white;
+border-color: #495760;
+    
+    color: #495760;
+    font-size: 16px;
+  text-align: left;
+  font-weight: 700;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+.validé{
+    text-align: center;
+    background-color: #495760;
+    color: white;
+    font-family: roboto;
+    height: 44px;
+
+}
+
+.mauv{
+color: white;
+background-color:#495760 ;
+}
+
+.bon{
+    color: white;
+    background-color:#D37E2B ;
+    border-color: #D37E2B ;
+
+    }
+
+.score-txt{
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.score{
+color:#D37E2B ;
+font-size: 50px;
+margin-top: 0px;
+
+}
+
+
+.opt{
+    text-align: center;
+}
+
+input{
+    height: 39px !important;
+    box-sizing: border-box;
+}
+
+th, td {
+    padding: 15px;
+    padding-left: 10px;
+    width: 100%;
+  }
+
+
+.classement{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #495760;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    height: 265px;
+    margin-bottom: 95px;
+}
+
+
+.classement-txt{
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 600;
+    color: #495760;
+    text-align: left;
+    margin-top: 85px;
+    margin-bottom: 10px;
+}
+
+
+
+textarea{
+    width: 100%;
+    color: #495760;
+    border: none;
+    height: 60px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom:5px !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-family: roboto;
+    font-size: 12px;
+    color: #495760;
+   padding-bottom: 5px;
+   font-weight: 600;
+  }
+
+  
+  .unfix{
+    width: 100%;
+    
+  
+    text-align: center;
+    font-family: roboto;
+    font-size: 12px;
+    color: #495760;
+   padding-bottom: 5px;
+   font-weight: 600;
+  }
+
+
+  .num{
+    font-family: roboto; font-size: 20px; font-weight: 900; color:#D37E2B ;
+  }
+
+ .scd{
+    padding-bottom: 0px;
+    height: 300px;
+ }
+
+ .obs{
+    text-align: center; margin-top: 15px; margin-bottom: 25px;
+ }
+
+ .twitter{
+    display: block; padding-left: 7px;
+ }
+
+ .enregistrer{
+     text-align: left;
+     font-size: 15px;
+ }
+
+ .envoye{
+     background-color: #495760;
+     color: white;
+ }
+
+ .undisplay{
+     display: none;
+ }
+
+
+
+
+ @media screen and (min-width : 420px){
+
+.first{
+    margin-top: 80px;
+}
+
+
+ }
