@@ -165,8 +165,8 @@ const QuizData2 = [
     },{
         id: 32,
         question: `Lequel de ces acteurs n’a jamais remporté l'oscar du meilleur acteur ?`,
-        options: [`Will Smith `, `Casey Affleck `, `Jean Dujardin `],
-        answer: `Will Smith `
+        options: [`Tom Cruise`, `Casey Affleck `, `Jean Dujardin `],
+        answer: `Tom Cruise`
     },{
         id: 33,
         question: `Qui est l'auteur du tableau le plus cher au monde ?`,
